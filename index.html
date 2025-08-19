@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Brenda Atieno Odhiambo - Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <!-- ===== NAVIGATION ===== -->
+   <!-- ===== NAVIGATION ===== -->
+<nav>
+  <div class="logo">~Brie~</div>
+
+  <!-- Hamburger Button (visible on mobile) -->
+  <button class="hamburger">&#9776;</button>
+
+  <!-- Navigation Links -->
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="skills.html">Skills</a></li>
+    <li><a href="projects.html">Projects</a></li>
+    <li><a href="education.html">Education</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+
+
+
+
+  <!-- ===== HERO SECTION ===== -->
+  <header class="hero">
+    <div class="hero-content">
+      <img src="dmc.jpg" alt="Brenda's Profile Picture" class="profile-pic">
+      <h1>BRENDA ATIENO ODHIAMBO</h1>
+      <h3>Web Developer | Data Analyst | Educator| Founder Dijitali Maths Club</h3>
+
+      <!-- Social Links -->
+      <div class="social-icons">
+        <a href="https://www.linkedin.com/in/brenda-atieno-380b80185/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/Brie-SE" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="mailto:atienobrenda256@gmail.com"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      Hi there! I’m Brenda, a developer with a love for crafting beautiful and functional web solutions. 
+      I enjoy problem-solving and have a keen eye for detail. <br><br>
+      When I’m not coding, you can find me on Pinterest exploring design ideas or curled up with a good book.
+      I’m also an educator and aspiring data analyst with a passion for blending education and technology. 
+      Through my Dijitali Maths Club, I create innovative learning experiences that introduce students to digital literacy and math through engaging tools. 
+      I’m excited about building solutions that not only solve problems but also empower communities.
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <div><i class="fab fa-python"></i> Python</div>
+      <div><i class="fab fa-html5"></i> HTML</div>
+      <div><i class="fab fa-css3-alt"></i> CSS</div>
+      <div><i class="fas fa-database"></i> SQL</div>
+      <div><i class="fas fa-chart-line"></i> Data Analysis</div>
+      <div><i class="fas fa-chalkboard-teacher"></i> Leadership</div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li><strong>Dijitali Maths Club:</strong> Empowering students with modern math and digital tools.
+In Kenya, digital literacy is becoming increasingly essential
+for academic and professional success, yet many students in
+underserved communities face limited access to digital
+resources and skills training. According to the Kenya National
+Bureau of Statistics (KNBS), only about 22% of households
+in Kenya have access to the internet at home, with this
+percentage significantly lower in rural and low-income areas.
+Furthermore, the World Bank highlights that digital skills are
+crucial for over 90% of jobs worldwide, making it critical for
+young people to develop these competencies early.
+In Kayole 1 Comprehensive School, the average score in the
+2024 mathematics end term assessments study remains
+below the desired proficiency levels, with many students
+struggling in foundational areas like data handling, logic, and
+applied math concepts that are critical for digital literacy.
+These challenges limit students' readiness for higher
+education and their ability to participate in a digital economy.<br><br>
+Solution:The Digitali Math Club aims to bridge the digital literacy and math skills
+gap among students in underserved communities by
+providing a structured program that integrates
+foundational digital and mathematical concepts. Through
+this project, students in the Junior Secondary Section receive hands-on
+training in essential skills like data handling, logical
+reasoning, and applied math using digital tools such as
+Wayground, programming and AI resources. By leveraging accessible
+technology, the Digitali Maths Club fosters an engaging
+learning environment where students can improve their
+math proficiency and develop critical digital skills,
+essential for their academic advancement and future
+career opportunities.
+The program includes interactive workshops, mentorship
+sessions, and access to online resources, ensuring that
+students gain practical, real-world experience in
+navigating digital platforms. By building both math and
+digital literacy competencies, the Digitali Maths Club not
+only boosts students' readiness for higher education but
+also equips them with the tools needed to participate
+actively in a digital economy. This initiative addresses the
+core educational barriers identified at Kayole 1
+Comprehensive School and empowers students to
+succeed in a technology-driven world.</li> <br><br>
+      
+  </section>
+
+  <!-- ===== EDUCATION ===== -->
+  <section id="education">
+    <h2>Education</h2>
+    <ul>
+      <li><strong>Software Engineering (In Progress)</strong> – Power Learn Project Academy</li>
+      <li><strong>Bachelor of Science Mathematics(Statistics Major)</strong> – The University of Nairobi</li>
+    </ul>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:your-email@example.com">atienobrenda256@gmail.com</a></p>
+    <p>Phone: +254 714447988</p>
+  </section>
+
+  <footer>
+    <p>© 2025 Brenda Atieno Odhiambo</p>
+  </footer>
+  <script>
+  const hamburger = document.querySelector('.hamburger');
+  const navLinks = document.querySelector('.nav-links');
+
+  hamburger.addEventListener('click', () => {
+    navLinks.classList.toggle('open');
+  });
+</script>
+
+</body>
+</html>
